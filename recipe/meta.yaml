@@ -1,5 +1,5 @@
 {% set name = "cleanco" %}
-{% set version = "2.2" %}
+{% set version = "2.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cleanco-{{ version }}.tar.gz
-  sha256: f16717234c1936866233283efc1387702dada7103fee8a6e712ca7caee2d182d
+  sha256: 26b899b2be871be288408205686c5a1dd5f3ab085b709d041a77f3e3049d2961
 
 build:
   number: 0
